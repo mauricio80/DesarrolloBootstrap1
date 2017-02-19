@@ -1,8 +1,7 @@
 ***********************************************************************************************************************************
 
-Una version de bootstrap se obtubo de 
+La version de bootstrap se obtuvo de 
 - Version de codigo facilito
 http://getbootstrap.com/2.3.2/
-- Otra se obtuvo de 
-http://getbootstrap.com/getting-started/
+
 ***********************************************************************************************************************************
