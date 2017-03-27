@@ -1,0 +1,54 @@
+***************************************************************************************************************************************************************
+CURSO GITHUB "CODIGO FACILITO" VIDEO 2
+
+CONFIGURACION 
+git config --global user.name "Mauricio"
+git config --global user.email "andremauricioospina@gmail.com"
+git config --global --list
+
+*****************************************************************************************************************************************************
+CURSO GITHUB "CODIGO FACILITO" VIDEO 3
+- Marca el inicio de nuestro proyecto
+git init
+- Nos dice el estado de nuestro proyecto
+git status
+- Con el siguiente comando decidimos que archivos estan listos para el siguiente paso
+git add
+git add -A
+- Guardamos los cambios con un mensaje
+git commit -m "Mensaje"
+- Nos da una lista de todos nuestros commits
+git log
+- Con este comando viajamos en el tiempo y nos movemos tambien entre ramas
+git checkout [Pegamos el commit]
+git checkout master
+- Con este nos genera un archivo con nuestros commits
+git log > commits.txt
+- Es similar a checkout a diferencia que este elimina los commits
+git reset [--soft (este no toca el codigo) OR --mixed OR --hard (borra tambien el codigo)]
+git resert --soft [Pegamos el commit]
+- Ayudas
+git help
+*****************************************************************************************************************************************************
+CURSO GITHUB "CODIGO FACILITO" VIDEO 4
+- Con este comando nos muestra los branchs o ramas que tenemos
+git branch
+- Con este comando creamos un branch
+git branch [Nombre]
+- Con este comando borramos una ramas
+git branch -d
+- Para fusionar nos colocamos primero en la rama que va a fusionar
+git merge [Nombre]
+*****************************************************************************************************************************************************
+CURSO GITHUB "CODIGO FACILITO" VIDEO 5
+- Nos sirve para clonar un proyecto, normalmente se usa cuando no nos interesa colaborar en un proyecto... solo para ver
+git clone [Ruta de github]
+- Vincular el proyecto local con el proyecto remoto
+git remote add origin [llave]
+- Ver repositorio remoto
+git remote -v
+- Quitar
+git remote remove origin
+- Pasar al remoto
+git push origin master
+*****************************************************************************************************************************************************
